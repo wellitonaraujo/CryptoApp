@@ -1,9 +1,10 @@
 import { BrowserRouter as Router } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import './App.css';
-import { Layout, Typography } from 'antd';
-import { } from 'react-router-dom';
 import AppRoutes from './routes/app.route';
+import NavBar from './components/NavBar';
+import { } from 'react-router-dom';
+import { Layout } from 'antd';
+import './App.css';
+
 
 function App() {
 

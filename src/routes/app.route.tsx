@@ -6,7 +6,6 @@ import Exchanges from '../pages/Exchanges';
 import Home from '../pages/Home';
 import News from '../pages/News';
 
-
 const AppRoutes = () => {
   return (
     <>
