@@ -21,14 +21,6 @@ function App() {
             </div>
           </Layout>
         </div>
-
-        <div className='footer'>
-          <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-            CryptoApp <br />
-            Todos os direitos
-          </Typography.Title>
-        </div>
-
       </div>
     </Router>
   )
