@@ -9,7 +9,7 @@ import { GlobalStats } from "../../models/globalStats";
 const { Title } = Typography;
 
 function Home() {
-  const { data, isFetching } = useGetCryptosQuery([]);
+  const { data, isFetching } = useGetCryptosQuery(10);
 
   const {
     totalExchanges,
@@ -20,8 +20,6 @@ function Home() {
   } = data?.data?.stats || {} as GlobalStats;
 
   if (isFetching) return 'Carregando...'
-
-  console.log(data);
 
   return (
     <>
@@ -35,9 +33,9 @@ function Home() {
       </Row>
       <div className="home-heading-container">
         <Title level={2} className="home-title">As 10 principais criptomoedas do mundo</Title>
-        <Title level={3} className="show-more"><Link to="/cryptocurrencies">Show more</Link></Title>
+        <Title level={3} className="show-more"><Link to="/cryptocurrencies">Ver mais</Link></Title>
       </div>
-      <Cryptocurrencies />
+      <Cryptocurrencies simplified />
       <div className="home-heading-container">
         <Title level={2} className="home-title">Últimas notícias sobre criptografia</Title>
         <Title level={3}><Link to="/news">Ver mais</Link></Title>
