@@ -1,0 +1,1 @@
+export const baseUrl = 'https://coinranking1.p.rapidapi.com';

@@ -529,6 +529,13 @@
   "resolved" "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.13.tgz"
   "version" "7.0.13"
 
+"@types/node@^20.8.6", "@types/node@>= 14":
+  "integrity" "sha512-eWO4K2Ji70QzKUqRy6oyJWUeB7+g2cRagT3T/nxYibYcT4y2BDL8lqolRXjTHmkZCdJfIPaY73KbJAZmcryxTQ=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-20.8.6.tgz"
+  "version" "20.8.6"
+  dependencies:
+    "undici-types" "~5.25.1"
+
 "@types/prop-types@*":
   "integrity" "sha512-kMpQpfZKSCBqltAJwskgePRaYRFukDkm1oItcAbC3gNELR20XIBcN9VRgg4+m8DKsTfkWeA4m4Imp4DDuWy7FQ=="
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.8.tgz"
@@ -1044,6 +1051,11 @@
     "dom-serializer" "^2.0.0"
     "domelementtype" "^2.3.0"
     "domhandler" "^5.0.3"
+
+"dotenv@^16.3.1":
+  "integrity" "sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ=="
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz"
+  "version" "16.3.1"
 
 "electron-to-chromium@^1.4.535":
   "integrity" "sha512-Q0umzPJjfBrrj8unkONTgbKQXzXRrH7sVV7D9ea2yBV3Oaogz991yhbpfvo2LMNkJItmruXTEzVpP9cp7vaIiQ=="
@@ -2427,6 +2439,11 @@
   "integrity" "sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-5.2.2.tgz"
   "version" "5.2.2"
+
+"undici-types@~5.25.1":
+  "integrity" "sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA=="
+  "resolved" "https://registry.npmjs.org/undici-types/-/undici-types-5.25.3.tgz"
+  "version" "5.25.3"
 
 "unload@2.2.0":
   "integrity" "sha512-B60uB5TNBLtN6/LsgAf3udH9saB5p7gqJwcFfbOEZ8BcBHnGwCf6G/TGiEqkRAxX7zAFIUtzdrXQSdL3Q/wqNA=="
