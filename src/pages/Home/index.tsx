@@ -1,10 +1,8 @@
-import { Typography, Row, Col, Statistic } from "antd";
-import { Link } from "react-router-dom";
-import Cryptocurrencies from "../Cryptocurrencies";
-import News from "../News";
-
 import { useGetCryptosQuery } from "../../services/cryptoApi";
+import { Typography, Row, Col, Statistic } from "antd";
 import { GlobalStats } from "../../models/globalStats";
+import Cryptocurrencies from "../Cryptocurrencies";
+import { Link } from "react-router-dom";
 
 const { Title } = Typography;
 
@@ -35,12 +33,9 @@ function Home() {
         <Title level={2} className="home-title">As 10 principais criptomoedas do mundo</Title>
         <Title level={3} className="show-more"><Link to="/cryptocurrencies">Ver mais</Link></Title>
       </div>
-      <Cryptocurrencies simplified />
-      <div className="home-heading-container">
-        <Title level={2} className="home-title">Últimas notícias sobre criptografia</Title>
-        <Title level={3}><Link to="/news">Ver mais</Link></Title>
-      </div>
-      <News />
+
+      <Cryptocurrencies simplified={false} />
+
     </>
   )
 }
